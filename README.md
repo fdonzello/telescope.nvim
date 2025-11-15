@@ -99,13 +99,13 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim)
 ```lua
 -- init.lua:
     {
-    'nvim-telescope/telescope.nvim', tag = '0.1.9',
+    'nvim-telescope/telescope.nvim', tag = 'v0.1.9',
      dependencies = { 'nvim-lua/plenary.nvim' }
     }
 
 -- plugins/telescope.lua:
 return {
-    'nvim-telescope/telescope.nvim', tag = '0.1.9',
+    'nvim-telescope/telescope.nvim', tag = 'v0.1.9',
       dependencies = { 'nvim-lua/plenary.nvim' }
     }
 ```
